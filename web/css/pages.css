@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#img{
+	width: 180px;
+	height: 178px;
+	border: 1px solid red;
+}
+#researchText{
+	height: 30px;
+}
+#researchButton{
+	height: 30px;
+	width: 50px;
+}
+
+.body{
+	width: 1000px;
+	height: 1100px;
+	margin: 30px auto;	
+	position: relative;
+	border: 1px solid red;
+}
+
+/* 上 */
+.body .head{
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+.body .head span:first-child{
+	display: inline-block;
+	line-height: 50px;
+	position: absolute;
+	left: 20px;
+}
+
+.body .head span:last-child{
+	display: inline-block;
+	line-height: 50px;
+	position: absolute;
+	right: 20px;
+}
+
+/* 中 */
+.body .content{
+	width: 100%;
+	height: 1000px;
+}
+#message{
+	height: 180px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+#message>div{
+	height: 180px;
+	float: left;
+	border: 1px solid red;
+}
+#message .class1{
+	width: 200px;
+	line-height: 180px;
+	text-align: center;
+}
+#message .class2{
+	width: 280px;
+}
+#message .class2 div{
+	width: 240px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#message .class3{
+	width: 124px;
+	line-height: 180px;
+	text-align: center;
+}
+#message .class4{
+	width: 123px;
+	line-height: 180px;
+	text-align: center;
+}
+#message .class5{
+	width: 260px;
+	line-height: 180px;
+	text-align: center;
+}
+/*清除浮动*/
+#message div:last-child:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+/* 下 */
+.body .tail{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+}
+.body .tail .tail-content{
+	width: auto;
+	line-height: 50px;
+	position: absolute;
+	left: 310px;
+	border: 1px solid red;
+}

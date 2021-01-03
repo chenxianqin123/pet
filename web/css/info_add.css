@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+/*保存与取消按钮*/
+#save,#cancel{
+	width: 70px;
+	height: 40px;
+	margin: 30px 0 0 80px;
+}
+#birthday input{
+	text-align: center;
+	width: 40px;
+	margin-right:5px;
+}
+
+.content{
+	width: 800px;
+	height: 650px;
+	margin: 0 auto;
+	margin-top: 5%;
+	/*border: 1px solid red;*/
+}
+/* 标题 */
+.content .title{
+	width: auto;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid red;
+	position: relative;
+}
+/* 内容 */
+.content .form{
+	width: auto;
+	height: 500px;
+	margin-top: 20px;
+	border: 1px solid red;
+	position: relative;
+}
+
+/* 左边部分 */
+.content .form .left{
+	width: 400px;
+	height: auto;
+	border: 1px solid red;
+	font-size: 18px;
+	position: absolute;
+}
+/*文字*/
+.content .form .left th{
+	width: 130px;
+	height: 50px;
+}
+/*输入框*/
+.content .form .left input[type=text]{
+    height: 30px;
+	width: 200px;
+}
+
+/*右边部分*/
+.content .form .right{
+	width: 350px;
+	height: 300px;
+	left: 20px;
+	top: 40px;
+	border: 1px solid red;
+	position: absolute;
+	left: 420px;
+	text-align: center;
+}
+/* 图片	 */
+.content .form .right img{
+	margin-top: 40px;
+	width: 150px;
+	height: 180px;
+}
+/*!* 上传头像按钮 *!*/
+/*.a-upload {*/
+/*    padding: 4px 10px;*/
+/*    height: 40px;*/
+/*    line-height: 20px;*/
+/*    position: relative;*/
+/*    cursor: pointer;*/
+/*    color: #888;*/
+/*    background: #fafafa;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 4px;*/
+/*    overflow: hidden;*/
+/*    display: inline-block;*/
+/*    *display: inline;*/
+/*    *zoom: 1*/
+/*}*/
+
+/*.a-upload  input {*/
+/*    position: absolute;*/
+/*    font-size: 100px;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    opacity: 0;*/
+/*    filter: alpha(opacity=0);*/
+/*    cursor: pointer*/
+/*}*/
+
+/*.a-upload:hover {*/
+/*    color: #444;*/
+/*    background: #eee;*/
+/*    border-color: #ccc;*/
+/*    text-decoration: none*/
+/*}*/

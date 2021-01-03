@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+#return{
+	position: absolute;
+	left: 15%;
+}
+/* 修改按钮 */
+#update{
+	position: absolute;
+	right: 15%;
+}
+/* 删除按钮 */
+#delete{
+	position: absolute;
+	right: 5%;
+}
+
+.content{
+	width: 800px;
+	height: 650px;
+	margin: 0 auto;
+	margin-top: 5%;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+/* 标题 */
+.content .title{
+	width: auto;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid red;
+	position: relative;
+}
+/* 正文 */
+.content .message{
+	width: auto;
+	height: 500px;
+	margin-top: 20px;
+	border: 1px solid red;
+	position: relative;
+}
+/* 头像 */
+.content .message .left{
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+	position: absolute;
+	text-align: center;
+}
+.content .message .left img{
+	margin-top: 10px;
+	width: 150px;
+	height: 180px;
+}
+
+/*个人信息区域*/
+.content .message .right{
+	width: 400px;
+	height: 450px;
+	position: relative;
+	border: 1px solid red;
+	position: absolute;
+	left: 260px;
+}
+
+/*设置文字属性*/
+.content .right th,td{
+	width: 150px;
+	height: 60px;
+	font-size: 20px;
+}
